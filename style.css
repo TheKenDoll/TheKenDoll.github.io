@@ -1,0 +1,183 @@
+
+
+.profile_pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow: 0 8px 6px -6px gray;
+}
+
+div.button-top {
+    margin: 20px;
+    text-align: center;
+    border-bottom: 2px solid rgb(65, 97, 140);
+}
+
+div.content {
+    display: flex;
+}
+
+div.profile {
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    border-right: 2px solid rgb(65, 97, 140);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+div.right-content {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+div.right-content-skills {
+    padding: 40px;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress-python {
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(0, 26, 255);
+    background-color: rgb(0, 26, 255);
+}
+
+.progress-cpp {
+    width: 90%;
+    height: 15px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(0, 26, 255);
+    background-color: rgb(0, 26, 255);
+}
+
+.progress-html {
+    width: 80%;
+    height: 15px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(0, 26, 255);
+    background-color: rgb(0, 26, 255);
+}
+
+.progress-css {
+    width: 75%;
+    height: 15px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(0, 26, 255);
+    background-color: rgb(0, 26, 255);
+}
+
+.progress-js {
+    width: 70%;
+    height: 15px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(0, 26, 255);
+    background-color: rgb(0, 26, 255);
+}
+
+
+.skill-table {
+    width: 100%;
+    border: 2px solid green;
+}
+
+div.right-content-education {
+    padding: 40px;
+    flex-grow: 1;
+}
+
+.table-education {
+    width: 90%;
+    font-size: large;
+}
+
+div.right-content-experience {
+    padding: 40px;
+    flex-grow: 1;
+}
+
+.table-experience {
+    width: 90%;
+    font-size: large;
+}
+
+.td-left {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.td-right {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.resume-text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+div.right-content-interests {
+    padding: 20px;
+}
+
+.interest-list {
+    list-style-type: circle;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    margin: 15px;
+}
+
+.bottom-content {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-top: 1px solid rgb(188, 192, 197)
+}
+
+
+@media only screen and (max-width: 1000px){
+    div.content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.profile {
+        border: none;
+        border-bottom: 2px solid rgb(65, 97, 140);
+        margin: 40px;
+    }
+}
