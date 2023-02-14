@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div id="title">
+        <h1>Wordle</h1>
+      </div>
+      <div class="buttons">
+        <button id="buttons1" onclick="darkMode()">&#9681;</button>
+        <button id="buttons2" onclick="getHint()">&#63;</button>
+        <button id="buttons3" onclick="getInfo()">&#9432;</button>
+      </div>
+    </div>
+    <div id="content"></div>
+    <div class="under-game">
+      <button id="startOver" onclick="startOver()" disabled>Loading...</button>
+      <div id="input-display"></div>
+    </div>
+
+    <div id="bottom-content"></div>
+
+    <script src="./wordle.js"></script>
+  </body>
+</html>
